@@ -643,10 +643,4 @@ This project is licensed under the MIT License.
 - React Team
 - MongoDB
 
-## 📧 Contact
-
-For questions or support, please open an issue or contact [your-email@example.com]
-
----
-
 **Note**: This is an academic/demonstration project. For production deployment, additional security audits, optimizations, and compliance measures are required.
