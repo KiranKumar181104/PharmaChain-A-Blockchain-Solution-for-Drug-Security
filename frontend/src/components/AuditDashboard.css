@@ -1,0 +1,122 @@
+.audit-dashboard {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.audit-dashboard h3 {
+  color: #333;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.stat-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+  transition: transform 0.3s;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+.stat-card.warning {
+  background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);
+}
+
+.stat-card.danger {
+  background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+}
+
+.stat-icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.stat-card h3 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.stat-card p {
+  opacity: 0.9;
+  font-size: 0.95rem;
+}
+
+.anomalies-table {
+  margin-top: 2rem;
+}
+
+.anomalies-table h3 {
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+.anomalies-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.anomalies-table th,
+.anomalies-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.anomalies-table th {
+  background: #f9f9f9;
+  font-weight: 600;
+  color: #555;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+}
+
+.anomalies-table tr:hover {
+  background: #f9f9f9;
+}
+
+.anomaly-badge {
+  background: #fff3cd;
+  color: #856404;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.no-anomalies {
+  margin-top: 2rem;
+  text-align: center;
+  padding: 3rem;
+  background: #d4edda;
+  border-radius: 10px;
+}
+
+.no-anomalies-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.no-anomalies h4 {
+  color: #155724;
+  margin-bottom: 0.5rem;
+}
+
+.no-anomalies p {
+  color: #155724;
+  opacity: 0.8;
+}

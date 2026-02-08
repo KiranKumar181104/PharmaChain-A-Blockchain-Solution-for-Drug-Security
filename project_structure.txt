@@ -1,0 +1,76 @@
+drug-traceability-system/
+│
+├── blockchain/
+│   ├── contracts/
+│   │   └── DrugTraceability.sol
+│   ├── migrations/
+│   │   └── 1_deploy_contracts.js
+│   ├── truffle-config.js
+│   └── package.json
+│
+├── backend/
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── main.py
+│   │   ├── config.py
+│   │   ├── database.py
+│   │   ├── models.py
+│   │   ├── schemas.py
+│   │   ├── routes/
+│   │   │   ├── __init__.py
+│   │   │   ├── auth.py
+│   │   │   ├── drugs.py
+│   │   │   ├── verification.py
+│   │   │   └── audit.py
+│   │   └── utils/
+│   │       ├── __init__.py
+│   │       ├── blockchain.py
+│   │       ├── hashing.py
+│   │       └── validation.py
+│   ├── requirements.txt
+│   └── .env
+│
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── MetaMaskConnect.jsx
+│   │   │   ├── DrugRegistration.jsx
+│   │   │   ├── OwnershipTransfer.jsx
+│   │   │   ├── DrugVerification.jsx
+│   │   │   ├── AuditDashboard.jsx
+│   │   │   └── common/
+│   │   │       ├── Button.jsx
+│   │   │       └── StatusBadge.jsx
+│   │   ├── pages/
+│   │   │   ├── Login.jsx
+│   │   │   ├── ManufacturerDashboard.jsx
+│   │   │   ├── DistributorDashboard.jsx
+│   │   │   ├── PharmacyDashboard.jsx
+│   │   │   ├── ConsumerPage.jsx
+│   │   │   └── RegulatorDashboard.jsx
+│   │   ├── services/
+│   │   │   ├── api.js
+│   │   │   ├── blockchain.js
+│   │   │   └── web3.js
+│   │   ├── utils/
+│   │   │   ├── constants.js
+│   │   │   └── helpers.js
+│   │   ├── App.jsx
+│   │   ├── App.css
+│   │   └── index.js
+│   ├── package.json
+│   └── .env
+│
+├── database/
+│   └── seed_data.json
+│
+├── docs/
+│   ├── API_DOCUMENTATION.md
+│   ├── DEPLOYMENT_GUIDE.md
+│   └── USER_MANUAL.md
+│
+├── README.md
+└── .gitignore

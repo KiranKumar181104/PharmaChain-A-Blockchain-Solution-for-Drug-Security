@@ -1,0 +1,233 @@
+.drug-verification {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.drug-verification h3 {
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.verification-form {
+  margin-bottom: 2rem;
+}
+
+.verification-result {
+  margin-top: 2rem;
+  padding: 2rem;
+  background: #f9f9f9;
+  border-radius: 10px;
+}
+
+.result-details {
+  margin-top: 2rem;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.result-details h4 {
+  color: #555;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  border-bottom: 2px solid #667eea;
+  padding-bottom: 0.5rem;
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem;
+  border-bottom: 1px solid #eee;
+}
+
+.detail-row:last-child {
+  border-bottom: none;
+}
+
+.detail-row .label {
+  font-weight: 600;
+  color: #666;
+}
+
+.detail-row .value {
+  color: #333;
+  font-family: 'Courier New', monospace;
+  text-align: right;
+}
+
+.anomalies-section {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: #fff3cd;
+  border-left: 4px solid #f39c12;
+  border-radius: 8px;
+}
+
+.anomalies-section h4 {
+  color: #856404;
+  margin-bottom: 1rem;
+}
+
+.anomaly-item {
+  color: #856404;
+  margin-bottom: 0.5rem;
+  list-style-position: inside;
+}
+
+.ownership-timeline {
+  margin-top: 2rem;
+}
+
+.ownership-timeline h4 {
+  color: #555;
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  border-bottom: 2px solid #667eea;
+  padding-bottom: 0.5rem;
+}
+
+.ownership-record {
+  background: white;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid #667eea;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
+}
+
+.ownership-record:hover {
+  transform: translateX(5px);
+}
+
+.record-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.record-number {
+  background: #667eea;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+
+.record-time {
+  color: #999;
+  font-size: 0.875rem;
+}
+
+.record-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.transfer-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 600;
+}
+
+.from-role, .to-role {
+  background: #f0f0f0;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+.arrow {
+  color: #667eea;
+  font-size: 1.5rem;
+}
+
+.location {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.addresses {
+  font-family: 'Courier New', monospace;
+  font-size: 0.875rem;
+  color: #999;
+}
+
+.addresses div {
+  margin-bottom: 0.25rem;
+}
+
+.composition-section {
+  margin-top: 2rem;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.composition-section h4 {
+  color: #555;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  border-bottom: 2px solid #667eea;
+  padding-bottom: 0.5rem;
+}
+
+.composition-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.composition-item {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.ingredient-name {
+  font-weight: 600;
+  color: #333;
+}
+
+.ingredient-quantity {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.ingredient-percentage {
+  color: #999;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 768px) {
+  .detail-row {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .detail-row .value {
+    text-align: left;
+  }
+  
+  .transfer-info {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .composition-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
